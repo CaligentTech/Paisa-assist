@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | PAISA assist</title>
+    <meta name="description"
+        content="Explore our Loan, Insurance, and Investment services — expert financial solutions from 50+ leading institutions." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="inner-page">
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html" class="site-nav__logo" aria-label="PAISA assist home">
+                <img src="images/logo-white.png" alt="PAISA assist" />
+            </a>
+
+            <ul class="site-nav__list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+
+                <!-- Services with dropdown -->
+                <li class="has-dropdown">
+                    <button class="site-nav__dropbtn" aria-expanded="false" aria-haspopup="true">
+                        Services
+                        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </button>
+                    <ul class="dropdown" role="menu">
+                        <li role="none">
+                            <a href="services.html#loans" role="menuitem" class="dropdown__item">
+                                <span class="dropdown__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 3 3 8l9 5 9-5-9-5Z" />
+                                        <path d="m3 12 9 5 9-5" />
+                                        <path d="m3 16 9 5 9-5" />
+                                    </svg>
+                                </span>
+                                Loan Services
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a href="services.html#insurance" role="menuitem" class="dropdown__item">
+                                <span class="dropdown__icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z" />
+                                    </svg>
+                                </span>
+                                Insurance Services
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a href="services.html#investments" role="menuitem" class="dropdown__item">
+                                <span class="dropdown__icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <rect x="4" y="13" width="4" height="7" rx="1" />
+                                        <rect x="10" y="9" width="4" height="11" rx="1" />
+                                        <rect x="16" y="4" width="4" height="16" rx="1" />
+                                    </svg>
+                                </span>
+                                Investment Services
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <!-- Mobile hamburger -->
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+        <div class="page-hero__inner">
+            <p class="page-hero__label">What We Offer</p>
+            <h1 class="page-hero__title">Your Financial Dreams, Our Commitment</h1>
+            <p class="page-hero__sub" style="text-align: center; text-align-last: center;">Looking for the right
+                financial solutions to secure your future and achieve your
+                dreams? We're here to make it happen! As a trusted financial consultancy partnered with 50+ leading
+                banks and financial institutions, we offer
+                a comprehensive range of financial solutions tailored to your needs and goals.
+        </div>
+    </section>
+
+    <!-- ===== LOAN SERVICES ===== -->
+    <main>
+        <section id="loans" class="services-section">
+            <div class="services-section__header">
+                <span class="section-tag">Loan Services</span>
+                <h2>Borrow Smart, Grow Fast</h2>
+                <p>Whether you're looking for a Home Loan, Personal Loan, Business Loan, Car Loan, or other financing
+                    options, our expert team is here to guide you every step of the way.</p>
+            </div>
+            <div class="service-cards">
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9h18M3 15h18M9 3v18M15 3v18" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" fill="none" />
+                        </svg>
+                    </span>
+                    <h3>Home Loan</h3>
+                    <p>Finance your dream home with flexible tenures up to 30 years and interest rates starting at 8.5%
+                        p.a.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" fill="none" />
+                            <rect x="9" y="11" width="14" height="10" rx="2" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <path d="M16 11v-1a2 2 0 0 0-2-2H9" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" fill="none" />
+                        </svg>
+                    </span>
+                    <h3>Personal Loan</h3>
+                    <p>Instant funds for any personal need — no collateral required, disbursal within 24 hours.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <rect x="2" y="7" width="20" height="14" rx="2" />
+                            <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                            <line x1="12" y1="12" x2="12" y2="16" />
+                            <line x1="10" y1="14" x2="14" y2="14" />
+                        </svg>
+                    </span>
+                    <h3>Business Loan</h3>
+                    <p>Scale your enterprise with working capital, term loans, and MSME credit — decisions in 48 hrs.
+                    </p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path d="M19 17H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2Z" />
+                            <circle cx="12" cy="13" r="2" />
+                            <path d="M5 10h.01M19 10h.01" />
+                        </svg>
+                    </span>
+                    <h3>Car Loan</h3>
+                    <p>Get your dream car with easy EMIs and flexible repayment options.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            <polyline points="9 22 9 12 15 12 15 22" />
+                            <circle cx="12" cy="7" r="1" fill="currentColor" stroke="none" />
+                        </svg>
+                    </span>
+                    <h3>Loan Against Property</h3>
+                    <p>Unlock the value of your residential or commercial property — get high-value loans at lower
+                        interest rates with longer tenures.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== INSURANCE SERVICES ===== -->
+        <section id="insurance" class="services-section services-section--alt">
+            <div class="services-section__header">
+                <span class="section-tag">Insurance Services</span>
+                <h2>Protect What Matters Most</h2>
+                <p>Beyond loans, we also help you explore the right Insurance to protect what matters most.</p>
+            </div>
+            <div class="service-cards">
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78Z" />
+                        </svg>
+                    </span>
+                    <h3>Life Insurance</h3>
+                    <p>Term and endowment plans that secure your family's future with high sum assured at low premiums.
+                    </p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z" />
+                        </svg>
+                    </span>
+                    <h3>Health Insurance</h3>
+                    <p>Cashless hospitalisation, OPD cover, and wellness benefits for individuals &amp; families.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path d="M19 17H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2Z" />
+                            <circle cx="7.5" cy="17" r="2.5" />
+                            <circle cx="16.5" cy="17" r="2.5" />
+                        </svg>
+                    </span>
+                    <h3>Motor Insurance</h3>
+                    <p>Comprehensive and third-party policies for cars and two-wheelers with quick claim settlement.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+                            <path d="M9 12l2 2 4-4" />
+                        </svg>
+                    </span>
+                    <h3>Other Protection Solutions</h3>
+                    <p>Home, travel, business, and property cover — guard every asset against fire, theft, and natural
+                        disasters.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== INVESTMENT SERVICES ===== -->
+        <section id="investments" class="services-section">
+            <div class="services-section__header">
+                <span class="section-tag">Investment Services</span>
+                <h2>Build Long-Term Wealth</h2>
+                <p>Investment Solutions to grow your wealth and build a financially secure future.</p>
+            </div>
+            <div class="service-cards">
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="4" y="13" width="4" height="7" rx="1" />
+                            <rect x="10" y="9" width="4" height="11" rx="1" />
+                            <rect x="16" y="4" width="4" height="16" rx="1" />
+                        </svg>
+                    </span>
+                    <h3>Mutual Funds</h3>
+                    <p>Start a Systematic Investment Plan from ₹500/month and harness the power of compounding for
+                        long-term wealth creation.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                    </span>
+                    <h3>Wealth Management</h3>
+                    <p>Personalised wealth strategies aligned to your risk appetite — portfolio advisory, asset
+                        allocation, and expert guidance.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3" />
+                            <path d="M3 11v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1H7v-1a2 2 0 0 0-4 0Z" />
+                        </svg>
+                    </span>
+                    <h3>Savings Plans</h3>
+                    <p>Disciplined savings solutions — fixed deposits, recurring deposits, and high-yield savings plans
+                        for every life goal.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+                <article class="service-card">
+                    <span class="service-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </span>
+                    <h3>Investment Solutions</h3>
+                    <p>Curated investment avenues — equities, bonds, REITs, and alternative assets — to help you achieve
+                        your financial goals.</p>
+                    <a href="contact.html" class="service-card__btn">Get Started →</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <p>© 2025 PAISA assist. All rights reserved. &nbsp;|&nbsp; <a href="contact.html">Contact Us</a></p>
+    </footer>
+
+    <script src="script/main.js"></script>
+    <script>
+        /* ---- Dropdown toggle ---- */
+        const dropBtn = document.querySelector('.site-nav__dropbtn');
+        const dropParent = dropBtn?.closest('.has-dropdown');
+
+        dropBtn?.addEventListener('click', () => {
+            const open = dropParent.classList.toggle('open');
+            dropBtn.setAttribute('aria-expanded', open);
+        });
+
+        // Close on outside click
+        document.addEventListener('click', e => {
+            if (dropParent && !dropParent.contains(e.target)) {
+                dropParent.classList.remove('open');
+                dropBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Keyboard: close on Escape
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape' && dropParent?.classList.contains('open')) {
+                dropParent.classList.remove('open');
+                dropBtn.setAttribute('aria-expanded', 'false');
+                dropBtn.focus();
+            }
+        });
+
+        /* ---- Hamburger ---- */
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.site-nav__list');
+
+        hamburger?.addEventListener('click', () => {
+            const open = navList.classList.toggle('mobile-open');
+            hamburger.setAttribute('aria-expanded', open);
+        });
+
+        /* ---- Active dropdown item ---- */
+        document.querySelectorAll('.dropdown__item').forEach(item => {
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.dropdown__item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Highlight item based on current hash
+        function highlightHash() {
+            const hash = window.location.hash;
+            document.querySelectorAll('.dropdown__item').forEach(item => {
+                item.classList.toggle('active', item.getAttribute('href').endsWith(hash));
+            });
+        }
+        window.addEventListener('hashchange', highlightHash);
+        highlightHash();
+    </script>
+</body>
+
+</html>
